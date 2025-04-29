@@ -4,12 +4,12 @@ const Sidebar = () => {
   const navItems = [
     { name: "Dashboard", icon: "📊" },
     { name: "Activity", icon: "📝" },
-    { name: "My Tasks", icon: "✅" },
+    { name: "Tasks", icon: "✅" },
     { name: "Request Leave", icon: "📜" },
   ];
 
   return (
-    <div className="sticky top-0 left-0 h-screen w-15 md:w-45 lg:w-64 bg-gray-800 shadow-lg flex flex-col transition-all duration-300 ease-in-out">
+    <div className="sticky top-0 left-0 h-dvh w-15 md:w-45 lg:w-64 bg-gray-800 shadow-lg flex flex-col transition-all duration-300 ease-in-out">
       <div className="p-4 border-b border-gray-700">
         <img
           alt="mentoons-logo"
